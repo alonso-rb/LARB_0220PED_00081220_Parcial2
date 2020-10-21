@@ -11,4 +11,4 @@ nodo agregado.
 
 2. ¿Cómo se enlaza con una sola instrucción, entre el 40 y el 12, 
 el nodo que contiene el 9?
-s->sig=p;
+(s->sig)->nuevo->(nuevo->siguiente)=p;
