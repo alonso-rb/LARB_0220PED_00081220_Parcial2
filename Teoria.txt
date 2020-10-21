@@ -1,0 +1,14 @@
+PREGUNTAS TEÓRICAS (20%)
+1-En una lista lineal simplemente enlazada se quiere insertar el 9 
+entre el 40 y el 12, tal como se muestra en la figura. ¿Cuál serie 
+de pasos es la correcta? ¿Porqué? Explique.
+
+La serie de pasos correctos, sería la serie B, ya que de esa manera
+en la línea 6 mi nuevo nodo siguiente estaría en el puntero siguiente 
+de mi dato de referencia (en este caso, el 40), y en la línea 7, el
+puntero que apuntaba a mi siguiente dato estaría apuntando a mi nuevo
+nodo agregado.
+
+2. ¿Cómo se enlaza con una sola instrucción, entre el 40 y el 12, 
+el nodo que contiene el 9?
+s->sig=p;
